@@ -534,3 +534,204 @@ a.btn2:hover {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*about.html*/
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+}
+
+.about-container img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.about-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact.html*/
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin-top: -20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info h2, .location-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-info p, .location-section p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.special-requests {
+    background-color: #CECECE;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 32px;
+}
+
+.special-requests h3 {
+    margin-bottom: 15px;
+    color: #000000;
+    font-size: 28px;
+}
+
+.special-requests form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.special-requests form input, .special-requests form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.special-requests form button {
+    background-color: #000;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border: #000000 solid 2px;
+    font-weight: bold;
+}
+
+.special-requests form button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: #000000 solid 2px;
+}
+
+.location-section {
+    text-align: center;
+    background-color: #CECECE;
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+.location-section h2 {
+    font-size: 36px;
+}
+
+.location-section p {
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*gallery.html*/
+.gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.gallery-container iframe {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.gallery-page {
+    margin-top: -25px;
+}
+
+.gallery-page h2 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 16px;
+}
