@@ -1,0 +1,256 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-bottom: 1px solid #CECECE;
+}
+
+/* Desktop Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+.navbar a.btn {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: black solid 2px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.navbar img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Mobile Header */
+.mobile-header {
+    display: none; /* Hidden on desktop */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hamburger-menu div {
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    margin: 4px 0;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.mobile-menu a {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #CECECE;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.mobile-menu img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.btn.book-lesson {
+    background-color: #000000;
+    border-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Show Mobile Header */
+    .mobile-header {
+        display: flex;
+    }
+
+    /* Hide Desktop Navbar */
+    .navbar {
+        display: none;
+    }
+
+    /* Hamburger Menu Styling */
+    .hamburger-menu {
+        display: flex;
+    }
+
+    /* Align Book Lesson Button */
+    .book-lesson {
+        margin-left: auto;
+    }
+
+}
+
+
+
+/* Navbar Hover Effect */
+.navbar a {
+    /* ... existing styles ... */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+
+.navbar a.btn {
+    /* ... existing styles ... */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+.navbar a.btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: black solid 2px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-info {
+    text-align: left;
+    flex-direction: column;
+}
+
+.contact-info section {
+    margin-bottom: 32px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.copy-write {
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+a.btn2 {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    border: #FFFFFF 2px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.btn2 {
+    /* ... existing styles ... */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+a.btn2:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: #ffffff 2px solid;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
