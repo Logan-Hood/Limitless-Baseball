@@ -260,3 +260,277 @@ a.btn2:hover {
     padding: 10px 15px;
     border-radius: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*index.html*/
+
+/* Section 1 Styles */
+.section1 {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.section1 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section1 h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section1 p {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section1 .btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: solid 2px white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.section1 .btn:hover {
+    background-color: white;
+    color: black;
+    border: #ffffff 2px solid;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+
+/*winter clinic overlay*/
+/* Overlay Styles */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    display: none; /* Initially hidden */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay.show {
+    display: flex; /* Show the overlay when the 'show' class is added */
+}
+
+.overlay-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 25%;
+}
+
+.overlay-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.overlay-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn.btn-secondary {
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/*section 2*/
+.section2 {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section2 .container {
+    max-width: 1200px;
+    width: 90%;
+}
+
+.section2 h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section2 p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.section2 img {
+    height: 350px;
+    width: 350px;
+}
+
+/*section 3*/
+.section3 {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .section3 h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .section3 .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .section3 .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .section3 img {
+    margin-bottom: 20px;
+    height: 350px;
+    width: 350px;
+  }
+  
+  .section3 h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section3 .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+
+  .lesson-buttons {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    border: #FFFFFF 2px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lesson-buttons {
+    /* ... existing styles ... */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+.lesson-buttons:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: #ffffff 2px solid;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/*section 4*/
+.section4 {
+    background-color: #CECECE;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .section4 p {
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 18px;
+  }
+  
+.section4 h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+}
+
+  .google-map {
+    width: 100%; /* Adjust the width as needed */
+  }
+
+
