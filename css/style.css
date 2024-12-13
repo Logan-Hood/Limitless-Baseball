@@ -479,7 +479,7 @@ a.btn2:hover {
 
 .section3 h2 {
     font-size: 28px; /* Smaller font size for mobile */
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -488,21 +488,19 @@ a.btn2:hover {
     flex-direction: row; /* Default flex direction */
     justify-content: center;
     flex-wrap: wrap; /* Enable wrapping for smaller screens */
-    gap: 20px; /* Add spacing between items */
 }
 
 .section3 .col-md-4 {
     display: flex;
     flex-direction: column; /* Stack image and button vertically */
     text-align: center;
-    padding: 20px; /* Adjust padding for better spacing */
     max-width: 100%; /* Ensure columns shrink to fit the container */
     align-items: center;
 }
 
 .section3 img {
     margin-bottom: 15px; /* Reduced spacing for mobile */
-    max-width: 80%; /* Ensure the image scales responsively */
+    max-width: 60%; /* Ensure the image scales responsively */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Add rounded corners for a modern look */
 }
