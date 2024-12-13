@@ -475,6 +475,14 @@ a.btn2:hover {
     background-color: #000;
     color: #fff;
     padding: 30px 15px; /* Reduced padding for mobile devices */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3 .container {
+    width: 100%; /* Use full width on smaller screens */
+    max-width: 1200px;
 }
 
 .section3 h2 {
@@ -487,7 +495,7 @@ a.btn2:hover {
     display: flex;
     flex-direction: row; /* Default flex direction */
     justify-content: center;
-    flex-wrap: wrap; /* Enable wrapping for smaller screens */
+    align-items: center;
 }
 
 .section3 .col-md-4 {
@@ -543,7 +551,7 @@ a.btn2:hover {
     }
 
     .section3 img {
-        max-width: 90%; /* Ensure image scales down further */
+        max-width: 60%; /* Ensure image scales down further */
         margin-bottom: 10px;
     }
 
