@@ -185,6 +185,13 @@ header {
 
 
 
+/* Hover effect to change the image */
+.instagram-link:hover .instagram-icon {
+    content: url('../images/instagram_icon2.png'); /* Change to the new image */
+}
+
+
+
 
 
 
