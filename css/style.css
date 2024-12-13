@@ -520,7 +520,6 @@ a.btn2:hover {
     color: #fff;
     padding: 50px 0;
     text-align: center;
-    align-items: center;
   }
   
   .section4 p {
@@ -529,19 +528,22 @@ a.btn2:hover {
     font-size: 18px;
   }
   
-.section4 h2 {
+  .section4 h2 {
     font-size: 36px;
     margin-bottom: 30px;
     text-align: center;
     color: black;
-}
-
-  .google-map {
-    width: 100%; /* Adjust the width as needed */
   }
-
-
-
+  
+  .google-map {
+    width: 100%; /* Ensures the map fills the container's width */
+  }
+  
+  @media (max-width: 768px) {
+    .google-map iframe {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+  }
 
 
 
