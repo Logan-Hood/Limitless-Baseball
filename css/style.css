@@ -305,7 +305,13 @@ a.btn2:hover {
 .section1 .row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+.col-md-6 {
+    max-width: 550px;
     align-items: center;
 }
 
@@ -514,6 +520,7 @@ a.btn2:hover {
     color: #fff;
     padding: 50px 0;
     text-align: center;
+    align-items: center;
   }
   
   .section4 p {
