@@ -306,7 +306,6 @@ a.btn2:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
 }
 
@@ -314,6 +313,7 @@ a.btn2:hover {
     max-width: 550px;
     align-items: center;
 }
+
 
 .section1 img {
     max-width: 100%;
@@ -414,105 +414,147 @@ a.btn2:hover {
 
 /*section 2*/
 .section2 {
-    padding: 50px 0;
+    padding: 30px 15px; /* Reduce padding for mobile */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Ensure vertical stacking of content */
     align-items: center;
     text-align: center;
+    background-color: #CECECE; /* Maintain background color */
 }
 
 .section2 .container {
     max-width: 1200px;
-    width: 90%;
+    width: 100%; /* Use full width on smaller screens */
 }
 
 .section2 h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 36px; /* Adjust heading size for mobile */
+    margin-bottom: 15px;
     text-align: center;
 }
 
 .section2 p {
-    font-size: 18px;
+    font-size: 18px; /* Slightly smaller font size for better readability */
+    line-height: 1.5; /* Improve readability */
     text-align: center;
+    margin: 10px 0; /* Add spacing */
 }
 
 .section2 img {
-    height: 350px;
-    width: 350px;
+    max-width: 90%; /* Scale image to fit within container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add spacing between image and text */
+    border-radius: 10px; /* Optional: Add rounded corners for a modern look */
 }
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    .section2 {
+        padding: 20px 10px; /* Reduce padding further for smaller screens */
+    }
+
+    .section2 h2 {
+        font-size: 36px; /* Smaller heading size for mobile */
+        margin-bottom: 10px;
+    }
+
+    .section2 p {
+        font-size: 18px; /* Smaller text size for mobile */
+        margin: 10px 0;
+    }
+
+    .section2 img {
+        max-width: 100%; /* Make image fully responsive */
+        margin-bottom: 15px;
+    }
+}
+
 
 /*section 3*/
 .section3 {
     background-color: #000;
     color: #fff;
-    padding: 50px 0;
-  }
-  
-  .section3 h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  .section3 .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+    padding: 30px 15px; /* Reduced padding for mobile devices */
+}
 
-  .section3 .col-md-4 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 32px;
-  }
-  
-  .section3 img {
+.section3 h2 {
+    font-size: 28px; /* Smaller font size for mobile */
     margin-bottom: 20px;
-    height: 350px;
-    width: 350px;
-  }
-  
-  .section3 h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .section3 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-  }
+    text-align: center;
+}
 
+.section3 .row {
+    display: flex;
+    flex-direction: row; /* Default flex direction */
+    justify-content: center;
+    flex-wrap: wrap; /* Enable wrapping for smaller screens */
+    gap: 20px; /* Add spacing between items */
+}
 
-  .lesson-buttons {
+.section3 .col-md-4 {
+    display: flex;
+    flex-direction: column; /* Stack image and button vertically */
+    text-align: center;
+    padding: 20px; /* Adjust padding for better spacing */
+    max-width: 100%; /* Ensure columns shrink to fit the container */
+    align-items: center;
+}
+
+.section3 img {
+    margin-bottom: 15px; /* Reduced spacing for mobile */
+    max-width: 80%; /* Ensure the image scales responsively */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners for a modern look */
+}
+
+.lesson-buttons {
     background-color: #ffffff;
     color: #000000;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: #FFFFFF 2px solid;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-}
-
-.lesson-buttons {
-    /* ... existing styles ... */
-    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+    display: inline-block; /* Ensure proper button alignment */
+    margin-top: 10px; /* Add spacing between the image and button */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
 }
 
 .lesson-buttons:hover {
     background-color: #000000;
     color: #ffffff;
     border: #ffffff 2px solid;
-    padding: 10px 15px;
-    border-radius: 5px;
 }
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    .section3 h2 {
+        font-size: 24px; /* Smaller heading for mobile */
+        margin-bottom: 15px;
+    }
+
+    .section3 .row {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center-align items */
+    }
+
+    .section3 .col-md-4 {
+        padding: 10px; /* Reduce padding for smaller screens */
+        max-width: 100%; /* Ensure columns take full width */
+        align-items: center;
+    }
+
+    .section3 img {
+        max-width: 90%; /* Ensure image scales down further */
+        margin-bottom: 10px;
+    }
+
+    .lesson-buttons {
+        padding: 8px 15px; /* Slightly smaller buttons for mobile */
+        font-size: 14px; /* Adjust font size for better fit */
+    }
+}
+
 
 /*section 4*/
 .section4 {
@@ -522,6 +564,7 @@ a.btn2:hover {
     text-align: center;
   }
   
+
   .section4 p {
     margin-bottom: 20px;
     color: #000000;
@@ -620,6 +663,19 @@ a.btn2:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    gap: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+      flex-direction: column; /* Change to column for mobile */
+    }
+  }
+  
+
+.col-md-9 {
+    max-width: 50%;
     align-items: center;
     justify-content: center;
 }
