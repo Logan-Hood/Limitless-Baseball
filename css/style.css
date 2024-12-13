@@ -306,7 +306,7 @@ a.btn2:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -611,12 +611,15 @@ a.btn2:hover {
     text-align: center;
     color: #FFFFFF;
     background-color: #000000;
-    margin-top: -20px;
+    margin-top: 0;
 }
 
 .main-content {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-info h2, .location-section h2 {
@@ -641,7 +644,6 @@ a.btn2:hover {
     padding: 20px;
     border-radius: 10px;
     width: 100%;
-    max-width: 400px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 32px;
 }
@@ -686,21 +688,6 @@ a.btn2:hover {
     border: #000000 solid 2px;
 }
 
-.location-section {
-    text-align: center;
-    background-color: #CECECE;
-    padding-top: 8px;
-    padding-bottom: 16px;
-}
-
-.location-section h2 {
-    font-size: 36px;
-}
-
-.location-section p {
-    font-size: 18px;
-    padding-bottom: 16px;
-}
 
 
 
@@ -732,13 +719,16 @@ a.btn2:hover {
     border: none;
 }
 
-.gallery-page {
-    margin-top: -25px;
-}
-
-.gallery-page h2 {
+.section-gallery h2 {
     color: white;
     font-size: 36px;
     text-align: center;
-    padding-top: 16px;
+}
+
+
+.section-gallery {
+    background-color: #000;
+    color: #fff;
+    padding: 4px 0;
+    border-bottom: #CECECE solid 2px;
 }
