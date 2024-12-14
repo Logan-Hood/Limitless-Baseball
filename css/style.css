@@ -1,10 +1,21 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+h1, h2, h3 {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600; /* Semi-bold */
+}
+
+p {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400; /* Regular */
+}
+
 
 header {
     background-color: #FFFFFF;
@@ -327,12 +338,16 @@ a.btn2:hover {
     font-size: 48px;
     margin-bottom: 20px;
     text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600; /* Semi-bold */
 }
 
 .section1 p {
     font-size: 28px;
     margin-bottom: 20px;
     text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400; /* Regular */
 }
 
 .section1 .btn {
@@ -388,11 +403,15 @@ a.btn2:hover {
 .overlay-content h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600; /* Semi-bold */
 }
 
 .overlay-content p {
     font-size: 18px;
     margin-bottom: 20px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400; /* Regular */
 }
 
 /* Button Styles */
@@ -435,6 +454,8 @@ a.btn2:hover {
     font-size: 36px; /* Adjust heading size for mobile */
     margin-bottom: 15px;
     text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600; /* Semi-bold */
 }
 
 .section2 p {
@@ -442,6 +463,8 @@ a.btn2:hover {
     line-height: 1.5; /* Improve readability */
     text-align: center;
     margin: 10px 0; /* Add spacing */
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400; /* Regular */
 }
 
 .section2 img {
@@ -460,11 +483,15 @@ a.btn2:hover {
     .section2 h2 {
         font-size: 36px; /* Smaller heading size for mobile */
         margin-bottom: 10px;
+        font-family: 'Inter', Arial, sans-serif;
+        font-weight: 600; /* Semi-bold */
     }
 
     .section2 p {
         font-size: 18px; /* Smaller text size for mobile */
         margin: 10px 0;
+        font-family: 'Inter', Arial, sans-serif;
+        font-weight: 400; /* Regular */
     }
 
     .section2 img {
@@ -493,6 +520,8 @@ a.btn2:hover {
     font-size: 28px; /* Smaller font size for mobile */
     margin-bottom: 40px;
     text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600; /* Semi-bold */
 }
 
 .section3 .row {
@@ -541,6 +570,8 @@ a.btn2:hover {
     .section3 h2 {
         font-size: 24px; /* Smaller heading for mobile */
         margin-bottom: 15px;
+        font-family: 'Inter', Arial, sans-serif;
+        font-weight: 600; /* Semi-bold */
     }
 
     .section3 .row {
@@ -579,6 +610,8 @@ a.btn2:hover {
     margin-bottom: 20px;
     color: #000000;
     font-size: 18px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400; /* Regular */
   }
   
   .section4 h2 {
@@ -586,6 +619,8 @@ a.btn2:hover {
     margin-bottom: 30px;
     text-align: center;
     color: black;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600; /* Semi-bold */
   }
   
   .google-map {
@@ -629,11 +664,15 @@ a.btn2:hover {
 .about-container h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600; /* Semi-bold */
 }
 
 .about-container p {
     font-size: 18px;
     line-height: 1.5;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400; /* Regular */
 }
 
 
@@ -677,12 +716,16 @@ a.btn2:hover {
     font-size: 36px;
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600; /* Semi-bold */
 }
 
 .contact-info p {
     margin: 5px 0;
     text-align: center;
     font-size: 18px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400; /* Regular */
 }
 
 .main-content {
@@ -778,6 +821,8 @@ a.btn2:hover {
     color: white;
     font-size: 36px;
     text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600; /* Semi-bold */
 }
 
 
