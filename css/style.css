@@ -219,10 +219,6 @@ footer {
     justify-content: center;
 }
 
-.contact-info {
-    text-align: left;
-    flex-direction: column;
-}
 
 .contact-info section {
     margin-bottom: 32px;
@@ -385,7 +381,8 @@ a.btn2:hover {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    width: 25%;
+    width: 80%;
+    max-width: 1200px;
 }
 
 .overlay-content h2 {
@@ -683,6 +680,8 @@ a.btn2:hover {
 @media screen and (max-width: 768px) {
     .main-content {
       flex-direction: column; /* Change to column for mobile */
+      align-items: center;
+      justify-content: center;
     }
   }
   
@@ -693,15 +692,20 @@ a.btn2:hover {
     justify-content: center;
 }
 
-.contact-info h2, .location-section h2 {
+.contact-info {
+    margin-bottom: 32px;
+}
+
+.contact-info h2 {
     font-size: 36px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.contact-info p, .location-section p {
+.contact-info p {
     margin: 5px 0;
     text-align: center;
+    font-size: 18px;
 }
 
 .logo-container img {

@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   // special request form
-  // Initialize EmailJS with your user ID (Public Key)
+// Initialize EmailJS with your user ID (Public Key)
 emailjs.init("bANOBykaP5XZdvtol");
 
 document.getElementById("special-request-form").addEventListener("submit", function (event) {
@@ -60,7 +60,7 @@ document.getElementById("special-request-form").addEventListener("submit", funct
     };
 
     // Send email using EmailJS
-    emailjs.send("service_j3k8dyy", "__ejs-test-mail-service__", formData)
+    emailjs.send("service_j3k8dyy", "template_xxxxx", formData) // Replace "template_xxxxx" with your actual template ID
         .then(function (response) {
             alert("Your message has been sent successfully!");
             document.getElementById("special-request-form").reset(); // Reset the form
