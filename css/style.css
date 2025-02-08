@@ -385,10 +385,7 @@ a.btn2:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    list-style: none;
 }
-
-
 
 .overlay.show {
     display: flex; /* Show the overlay when the 'show' class is added */
@@ -400,14 +397,7 @@ a.btn2:hover {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     width: 80%;
-    max-width: 800px;
-}
-
-.overlay-content h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
+    max-width: 1200px;
 }
 
 .overlay-content h2 {
@@ -420,12 +410,6 @@ a.btn2:hover {
 .overlay-content p {
     font-size: 18px;
     margin-bottom: 20px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400; /* Regular */
-}
-
-.overlay-content li {
-    font-size: 18px;
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 400; /* Regular */
 }
