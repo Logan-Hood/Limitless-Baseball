@@ -178,6 +178,7 @@ header {
     background-color: black;
     color: white;
     padding: 8px;
+    border-radius: 5px;
 }
 
 
@@ -351,8 +352,8 @@ a.btn2:hover {
 }
 
 .section1 .btn {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 20px;
     border: solid 2px white;
     border-radius: 5px;
@@ -363,10 +364,10 @@ a.btn2:hover {
 }
 
 .section1 .btn:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border: #ffffff 2px solid;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 5px;
 }
 
