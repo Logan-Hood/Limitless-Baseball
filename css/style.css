@@ -351,25 +351,7 @@ a.btn2:hover {
     font-weight: 400; /* Regular */
 }
 
-.section1 .btn {
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    border: solid 2px white;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 28px;
-}
 
-.section1 .btn:hover {
-    background-color: black;
-    color: white;
-    border: #ffffff 2px solid;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
 
 
 
@@ -848,4 +830,93 @@ a.btn2:hover {
     color: #fff;
     padding: 4px 0;
     border-bottom: #CECECE solid 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* New Test Banner  */
+
+/* Banner Styling */
+.announcement-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1100fe; /* Adjust the blue shade if needed */
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 5px;
+}
+
+
+
+
+.announcement-banner h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.announcement-banner p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.waitlist-link strong {
+    font-size: 16px;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 8px;
+    font-style: italic;
+}
+
+.calendly-link strong {
+    font-size: 16px;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 8px;
+    font-style: italic;
+
+}
+
+
+.announcement-banner .btn {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin: 8px;
+    border: solid 2px white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    width: 200px;
+}
+
+.announcement-banner .btn:hover {
+    background-color: black;
+    color: white;
+    border: #ffffff 2px solid;
+    padding: 8px;
+    border-radius: 5px;
 }
