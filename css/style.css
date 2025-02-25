@@ -901,7 +901,7 @@ a.btn2:hover {
 
 .announcement-banner .btn {
     background-color: white;
-    color: black;
+    color: #1100fe;
     padding: 8px;
     margin: 8px;
     border: solid 2px white;
@@ -914,7 +914,7 @@ a.btn2:hover {
 }
 
 .announcement-banner .btn:hover {
-    background-color: black;
+    background-color: #1100fe;
     color: white;
     border: #ffffff 2px solid;
     padding: 8px;
