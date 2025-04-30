@@ -6,14 +6,18 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
+    font-weight: 600;
+    /* Semi-bold */
 }
 
 p {
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400; /* Regular */
+    font-weight: 400;
+    /* Regular */
 }
 
 
@@ -75,7 +79,8 @@ header {
 
 /* Mobile Header */
 .mobile-header {
-    display: none; /* Hidden on desktop */
+    display: none;
+    /* Hidden on desktop */
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -144,6 +149,7 @@ header {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+
     /* Show Mobile Header */
     .mobile-header {
         display: flex;
@@ -171,7 +177,8 @@ header {
 /* Navbar Hover Effect */
 .navbar a {
     /* ... existing styles ... */
-    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+    transition: background-color 0.3s, color 0.3s;
+    /* Add transition for smooth effect */
 }
 
 .navbar a:hover {
@@ -184,7 +191,8 @@ header {
 
 .navbar a.btn {
     /* ... existing styles ... */
-    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+    transition: background-color 0.3s, color 0.3s;
+    /* Add transition for smooth effect */
 }
 
 .navbar a.btn:hover {
@@ -199,7 +207,8 @@ header {
 
 /* Hover effect to change the image */
 .instagram-link:hover .instagram-icon {
-    content: url('../images/instagram_icon2.png'); /* Change to the new image */
+    content: url('../images/instagram_icon2.png');
+    /* Change to the new image */
 }
 
 
@@ -265,7 +274,8 @@ a.btn2 {
 
 a.btn2 {
     /* ... existing styles ... */
-    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+    transition: background-color 0.3s, color 0.3s;
+    /* Add transition for smooth effect */
 }
 
 a.btn2:hover {
@@ -340,7 +350,8 @@ a.btn2:hover {
     margin-bottom: 20px;
     text-align: center;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
+    font-weight: 600;
+    /* Semi-bold */
 }
 
 .section1 p {
@@ -348,7 +359,8 @@ a.btn2:hover {
     margin-bottom: 20px;
     text-align: center;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400; /* Regular */
+    font-weight: 400;
+    /* Regular */
 }
 
 
@@ -363,8 +375,10 @@ a.btn2:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    display: none; /* Initially hidden */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent black background */
+    display: none;
+    /* Initially hidden */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -374,7 +388,8 @@ a.btn2:hover {
 
 
 .overlay.show {
-    display: flex; /* Show the overlay when the 'show' class is added */
+    display: flex;
+    /* Show the overlay when the 'show' class is added */
 }
 
 .overlay-content {
@@ -390,27 +405,31 @@ a.btn2:hover {
     font-size: 32px;
     margin-bottom: 10px;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
+    font-weight: 600;
+    /* Semi-bold */
 }
 
 .overlay-content h2 {
     font-size: 24px;
     margin-bottom: 10px;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
+    font-weight: 600;
+    /* Semi-bold */
 }
 
 .overlay-content p {
     font-size: 18px;
     margin-bottom: 20px;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400; /* Regular */
+    font-weight: 400;
+    /* Regular */
 }
 
 .overlay-content li {
     font-size: 18px;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400; /* Regular */
+    font-weight: 400;
+    /* Regular */
 }
 
 /* Button Styles */
@@ -436,65 +455,85 @@ a.btn2:hover {
 
 /*section 2*/
 .section2 {
-    padding: 30px 15px; /* Reduce padding for mobile */
+    padding: 30px 15px;
+    /* Reduce padding for mobile */
     display: flex;
-    flex-direction: column; /* Ensure vertical stacking of content */
+    flex-direction: column;
+    /* Ensure vertical stacking of content */
     align-items: center;
     text-align: center;
-    background-color: #CECECE; /* Maintain background color */
+    background-color: #CECECE;
+    /* Maintain background color */
 }
 
 .section2 .container {
     max-width: 1200px;
-    width: 100%; /* Use full width on smaller screens */
+    width: 100%;
+    /* Use full width on smaller screens */
 }
 
 .section2 h2 {
-    font-size: 36px; /* Adjust heading size for mobile */
+    font-size: 36px;
+    /* Adjust heading size for mobile */
     margin-bottom: 15px;
     text-align: center;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
+    font-weight: 600;
+    /* Semi-bold */
 }
 
 .section2 p {
-    font-size: 18px; /* Slightly smaller font size for better readability */
-    line-height: 1.5; /* Improve readability */
+    font-size: 18px;
+    /* Slightly smaller font size for better readability */
+    line-height: 1.5;
+    /* Improve readability */
     text-align: center;
-    margin: 10px 0; /* Add spacing */
+    margin: 10px 0;
+    /* Add spacing */
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400; /* Regular */
+    font-weight: 400;
+    /* Regular */
 }
 
 .section2 img {
-    max-width: 90%; /* Scale image to fit within container */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Add spacing between image and text */
-    border-radius: 10px; /* Optional: Add rounded corners for a modern look */
+    max-width: 90%;
+    /* Scale image to fit within container */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-bottom: 20px;
+    /* Add spacing between image and text */
+    border-radius: 10px;
+    /* Optional: Add rounded corners for a modern look */
 }
 
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
     .section2 {
-        padding: 20px 10px; /* Reduce padding further for smaller screens */
+        padding: 20px 10px;
+        /* Reduce padding further for smaller screens */
     }
 
     .section2 h2 {
-        font-size: 36px; /* Smaller heading size for mobile */
+        font-size: 36px;
+        /* Smaller heading size for mobile */
         margin-bottom: 10px;
         font-family: 'Inter', Arial, sans-serif;
-        font-weight: 600; /* Semi-bold */
+        font-weight: 600;
+        /* Semi-bold */
     }
 
     .section2 p {
-        font-size: 18px; /* Smaller text size for mobile */
+        font-size: 18px;
+        /* Smaller text size for mobile */
         margin: 10px 0;
         font-family: 'Inter', Arial, sans-serif;
-        font-weight: 400; /* Regular */
+        font-weight: 400;
+        /* Regular */
     }
 
     .section2 img {
-        max-width: 100%; /* Make image fully responsive */
+        max-width: 100%;
+        /* Make image fully responsive */
         margin-bottom: 15px;
     }
 }
@@ -504,45 +543,56 @@ a.btn2:hover {
 .section3 {
     background-color: #000;
     color: #fff;
-    padding: 30px 15px; /* Reduced padding for mobile devices */
+    padding: 30px 15px;
+    /* Reduced padding for mobile devices */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .section3 .container {
-    width: 100%; /* Use full width on smaller screens */
+    width: 100%;
+    /* Use full width on smaller screens */
     max-width: 1200px;
 }
 
 .section3 h2 {
-    font-size: 28px; /* Smaller font size for mobile */
+    font-size: 28px;
+    /* Smaller font size for mobile */
     margin-bottom: 40px;
     text-align: center;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
+    font-weight: 600;
+    /* Semi-bold */
 }
 
 .section3 .row {
     display: flex;
-    flex-direction: row; /* Default flex direction */
+    flex-direction: row;
+    /* Default flex direction */
     justify-content: center;
     align-items: center;
 }
 
 .section3 .col-md-4 {
     display: flex;
-    flex-direction: column; /* Stack image and button vertically */
+    flex-direction: column;
+    /* Stack image and button vertically */
     text-align: center;
-    max-width: 100%; /* Ensure columns shrink to fit the container */
+    max-width: 100%;
+    /* Ensure columns shrink to fit the container */
     align-items: center;
 }
 
 .section3 img {
-    margin-bottom: 15px; /* Reduced spacing for mobile */
-    max-width: 60%; /* Ensure the image scales responsively */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Add rounded corners for a modern look */
+    margin-bottom: 15px;
+    /* Reduced spacing for mobile */
+    max-width: 60%;
+    /* Ensure the image scales responsively */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Optional: Add rounded corners for a modern look */
 }
 
 .lesson-buttons {
@@ -553,9 +603,12 @@ a.btn2:hover {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    display: inline-block; /* Ensure proper button alignment */
-    margin-top: 10px; /* Add spacing between the image and button */
-    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+    display: inline-block;
+    /* Ensure proper button alignment */
+    margin-top: 10px;
+    /* Add spacing between the image and button */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth hover effect */
 }
 
 .lesson-buttons:hover {
@@ -567,31 +620,40 @@ a.btn2:hover {
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
     .section3 h2 {
-        font-size: 24px; /* Smaller heading for mobile */
+        font-size: 24px;
+        /* Smaller heading for mobile */
         margin-bottom: 15px;
         font-family: 'Inter', Arial, sans-serif;
-        font-weight: 600; /* Semi-bold */
+        font-weight: 600;
+        /* Semi-bold */
     }
 
     .section3 .row {
-        flex-direction: column; /* Stack columns vertically */
-        align-items: center; /* Center-align items */
+        flex-direction: column;
+        /* Stack columns vertically */
+        align-items: center;
+        /* Center-align items */
     }
 
     .section3 .col-md-4 {
-        padding: 10px; /* Reduce padding for smaller screens */
-        max-width: 100%; /* Ensure columns take full width */
+        padding: 10px;
+        /* Reduce padding for smaller screens */
+        max-width: 100%;
+        /* Ensure columns take full width */
         align-items: center;
     }
 
     .section3 img {
-        max-width: 60%; /* Ensure image scales down further */
+        max-width: 60%;
+        /* Ensure image scales down further */
         margin-bottom: 10px;
     }
 
     .lesson-buttons {
-        padding: 8px 15px; /* Slightly smaller buttons for mobile */
-        font-size: 14px; /* Adjust font size for better fit */
+        padding: 8px 15px;
+        /* Slightly smaller buttons for mobile */
+        font-size: 14px;
+        /* Adjust font size for better fit */
     }
 }
 
@@ -602,35 +664,39 @@ a.btn2:hover {
     color: #fff;
     padding: 50px 0;
     text-align: center;
-  }
-  
+}
 
-  .section4 p {
+
+.section4 p {
     margin-bottom: 20px;
     color: #000000;
     font-size: 18px;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400; /* Regular */
-  }
-  
-  .section4 h2 {
+    font-weight: 400;
+    /* Regular */
+}
+
+.section4 h2 {
     font-size: 36px;
     margin-bottom: 30px;
     text-align: center;
     color: black;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
-  }
-  
-  .google-map {
-    width: 100%; /* Ensures the map fills the container's width */
-  }
-  
-  @media (max-width: 768px) {
+    font-weight: 600;
+    /* Semi-bold */
+}
+
+.google-map {
+    width: 100%;
+    /* Ensures the map fills the container's width */
+}
+
+@media (max-width: 768px) {
     .google-map iframe {
-      height: 300px; /* Adjust height for smaller screens */
+        height: 300px;
+        /* Adjust height for smaller screens */
     }
-  }
+}
 
 
 
@@ -646,8 +712,8 @@ a.btn2:hover {
 
 
 
-  /*about.html*/
-  .about-container {
+/*about.html*/
+.about-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 25px;
@@ -664,14 +730,16 @@ a.btn2:hover {
     font-size: 36px;
     margin-bottom: 20px;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
+    font-weight: 600;
+    /* Semi-bold */
 }
 
 .about-container p {
     font-size: 18px;
     line-height: 1.5;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400; /* Regular */
+    font-weight: 400;
+    /* Regular */
 }
 
 
@@ -716,7 +784,8 @@ a.btn2:hover {
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
+    font-weight: 600;
+    /* Semi-bold */
 }
 
 .contact-info p {
@@ -724,26 +793,33 @@ a.btn2:hover {
     text-align: center;
     font-size: 18px;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400; /* Regular */
+    font-weight: 400;
+    /* Regular */
 }
 
 .main-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    gap: 48px; /* Space between items */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    gap: 48px;
+    /* Space between items */
     margin-bottom: 48px;
 }
 
 .col-md-9 {
-    flex: 1 1 48%; /* Flex-grow: 1, Flex-shrink: 1, Flex-basis: 48% for equal size */
-    max-width: 48%; /* Ensure equal width */
+    flex: 1 1 48%;
+    /* Flex-grow: 1, Flex-shrink: 1, Flex-basis: 48% for equal size */
+    max-width: 48%;
+    /* Ensure equal width */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box; /* Include padding and border in size calculation */
+    box-sizing: border-box;
+    /* Include padding and border in size calculation */
 }
 
 .logo-container img {
@@ -757,30 +833,36 @@ a.btn2:hover {
     color: #000000;
     border-radius: 10px;
     padding: 12px;
-    width: 100%; /* Match container width */
+    width: 100%;
+    /* Match container width */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box; /* Include padding and border in size calculation */
+    box-sizing: border-box;
+    /* Include padding and border in size calculation */
 }
 
 .special-requests iframe {
     border: 1px solid #ccc;
     border-radius: 8px;
     height: 550px;
-    width: 100%; /* Match container width */
+    width: 100%;
+    /* Match container width */
 }
 
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
     .main-content {
-        flex-direction: column-reverse; /* Stack items vertically */
+        flex-direction: column-reverse;
+        /* Stack items vertically */
     }
 
     .col-md-9 {
-        max-width: 100%; /* Full width on mobile */
-        flex-basis: 100%; /* Take up full width */
+        max-width: 100%;
+        /* Full width on mobile */
+        flex-basis: 100%;
+        /* Take up full width */
     }
 }
 
@@ -810,6 +892,7 @@ a.btn2:hover {
     margin: 0 auto;
     padding: 20px;
 }
+
 .gallery-container iframe {
     width: 100%;
     height: auto;
@@ -821,7 +904,8 @@ a.btn2:hover {
     font-size: 36px;
     text-align: center;
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 600; /* Semi-bold */
+    font-weight: 600;
+    /* Semi-bold */
 }
 
 
@@ -855,13 +939,15 @@ a.btn2:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1100fe; /* Adjust the blue shade if needed */
+    background-color: #1100fe;
+    /* Adjust the blue shade if needed */
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
     padding-left: 32px;
     padding-right: 32px;
     border-radius: 5px;
+    max-width: 393px;
 }
 
 
