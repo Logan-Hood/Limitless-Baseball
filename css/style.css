@@ -611,11 +611,7 @@ a.btn2:hover {
     /* Smooth hover effect */
 }
 
-.lesson-buttons:hover {
-    background-color: #000000;
-    color: #ffffff;
-    border: #ffffff 2px solid;
-}
+
 
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
